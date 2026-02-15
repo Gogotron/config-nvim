@@ -15,3 +15,8 @@ vim.api.nvim_create_user_command('Q', 'quit', {})
 -- Folding
 vim.o.foldmethod = 'indent'
 vim.cmd.nnoremap('<space>', 'za')
+
+-- Plugins
+-- git clone ultisnips to local/share/nvim/site/pack
+-- requires python provider
+vim.cmd.packadd('ultisnips')
