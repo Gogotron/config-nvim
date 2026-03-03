@@ -19,4 +19,9 @@ vim.cmd.nnoremap('<space>', 'za')
 -- Plugins
 -- git clone ultisnips to local/share/nvim/site/pack
 -- requires python provider
+vim.cmd.packadd('vimtex')
 vim.cmd.packadd('ultisnips')
+
+vim.cmd("let g:UltiSnipsJumpForwardTrigger = '<tab>'")
+vim.cmd("let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'")
+vim.cmd("let g:UltiSnipsEditSplit = 'vertical'")
