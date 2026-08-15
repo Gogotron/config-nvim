@@ -25,3 +25,7 @@ vim.cmd.packadd('ultisnips')
 vim.cmd("let g:UltiSnipsJumpForwardTrigger = '<tab>'")
 vim.cmd("let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'")
 vim.cmd("let g:UltiSnipsEditSplit = 'vertical'")
+
+vim.cmd("highlight Normal guibg=none")
+
+vim.opt.conceallevel = 2
